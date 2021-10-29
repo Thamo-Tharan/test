@@ -1,0 +1,566 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#parent{
+  display: flex;
+    flex-wrap: wrap;
+    margin-left: 125px;
+}
+p{
+  font-size: 14px;
+    white-space: initial;
+    font-family: Open sans-serif;
+    color: white;
+    text-shadow: none;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > img:nth-child(2){
+width: 50px;
+height: 50px;
+margin-top: 130px;
+margin-left:-175px;
+}
+#parent > div:nth-child(1){
+  background: #41ca6e;
+    height: 400px;
+    width: 30%;
+    display: inline-flex;
+}
+#parent > div:nth-child(1) > div:nth-child(2) > img{
+  width: 170px;
+  height: 200px;
+  margin-top: 152px;
+    margin-left: -100px;
+position: absolute;
+}
+#parent > div:nth-child(2){
+  background: #fab153;
+  height: 400px;
+  width: 30%;
+  display: inline-flex;
+}
+#parent > div:nth-child(2) > div:nth-child(1) > img{
+  width: 65px;
+height: 50px;
+margin-top: 131px;
+margin-left: -102px;
+}
+#parent > div:nth-child(2) > div:nth-child(2) > img{
+  width: 175px;
+  height: 330px;
+  margin-top: 46px;
+    margin-left: 4px;
+position: absolute;
+}
+#parent > div:nth-child(3){
+  background: #7277d5;
+  height: 400px;
+  width: 30%;
+  display: inline-flex;
+}
+#parent > div:nth-child(3) > div:nth-child(1) > img{
+  width: 109px;
+height: 30px;
+margin-top: 152px;
+margin-left: -22px;
+}
+#parent > div:nth-child(3) > div:nth-child(2) > img{
+  width: 175px;
+  height: 330px;
+  margin-top: 46px;
+    margin-left: 4px;
+position: absolute;
+}
+#parent > div:nth-child(4){
+  background: #f87d51;
+  height: 400px;
+  width: 30%;
+  display: inline-flex;
+}
+#parent > div:nth-child(4) > div:nth-child(1) > img{
+  width: 110px;
+height: 19px;
+margin-top: 149px;
+margin-left: 21px;
+}
+#parent > div:nth-child(4) > div:nth-child(2) > img{
+  width: 150px;
+  height: 274px;
+  margin-top: 110px;
+    margin-left: 29px;
+position: absolute;
+}
+#parent > div:nth-child(5){
+  background: #ed5466;
+  height: 400px;
+  width: 30%;
+  display: inline-flex;
+}
+#parent > div:nth-child(5) > div:nth-child(1) > img{
+  width: 109px;
+height: 30px;
+margin-top: 152px;
+margin-left: -24px;
+}
+#parent > div:nth-child(5) > div:nth-child(2) > img{
+  width: 175px;
+  height: 330px;
+  margin-top: 66px;
+    margin-left: -5px;
+position: absolute;
+}
+#parent > div:nth-child(6){
+  background: #4ec2e7;
+  height: 400px;
+  width: 30%;
+  display: inline-flex;
+}
+#parent > div:nth-child(6) > div:nth-child(1) > img{
+  width: 50px;
+height: 50px;
+margin-top: 130px;
+margin-left:-117px
+}
+#parent > div:nth-child(6) > div:nth-child(2) > img{
+  width: 234px;
+  height: 151px;
+  margin-top: 171px;
+    margin-left: -51px;
+position: absolute;
+}
+#parent > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+  margin-left: -81px;
+}
+#parent > div:nth-child(2) > div:nth-child(1) > p:nth-child(3){
+  margin-left: 39px;
+}
+#parent > div:nth-child(3) > div:nth-child(1) > p:nth-child(2){
+  margin-left: 40px;
+}
+#parent > div:nth-child(3) > div:nth-child(1) > p:nth-child(3){
+      margin-left: -11px;
+}
+#parent > div:nth-child(4) > div:nth-child(1) > p:nth-child(2){
+  margin-left: 56px;
+}
+#parent > div:nth-child(4) > div:nth-child(1) > p:nth-child(3){
+  margin-left: -1px;
+}
+#parent > div:nth-child(5) > div:nth-child(1) > p:nth-child(2){
+  margin-left: -25px;
+}
+#parent > div:nth-child(5) > div:nth-child(1) > p:nth-child(3){
+  margin-left: 46px;
+}
+#parent > div:nth-child(6) > div:nth-child(1) > p:nth-child(2){
+  margin-left: -75px;
+}
+#parent > div:nth-child(6) > div:nth-child(1) > p:nth-child(3){
+  margin-left: 46px;
+}
+#parent > div:nth-child(3) > div:nth-child(1) > hr{
+  background-color: white;
+    width: 75%;
+    margin-left: 42px;
+}
+#parent > div:nth-child(3) > div:nth-child(1) > p:nth-child(4){
+  margin-left:-16px;
+}
+#parent > div:nth-child(2) > div:nth-child(1) > p:nth-child(4){
+  margin-left:32px;
+}
+#parent > div:nth-child(2) > div:nth-child(1) > hr{
+  background-color: white;
+  width: 65%;
+  margin-left: 33px;
+}
+#parent > div:nth-child(4) > div:nth-child(1) > hr{
+  background-color: white;
+  width: 84%;
+  margin-left: 57px;
+}
+#parent > div:nth-child(4) > div:nth-child(1) > p:nth-child(4){
+  margin-left:-6px;
+}
+#parent > div:nth-child(5) > div:nth-child(1) > hr{
+  background-color: white;
+  width: 65%;
+  margin-left: 46px;
+}
+#parent > div:nth-child(5) > div:nth-child(1) > p:nth-child(4){
+  margin-left:45px;
+}
+#parent > div:nth-child(6) > div:nth-child(1) > hr{
+  background-color: white;
+  width: 51%;
+  margin-left: 46px;
+}
+#parent > div:nth-child(6) > div:nth-child(1) > p:nth-child(4){
+  margin-left:45px;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > hr{
+  background-color: white;
+  width: 51%;
+  margin-left: 46px;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > p:nth-child(2){
+  margin-left:45px;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > p:nth-child(4){
+  margin-left:-76px;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  width: 60px;
+    height: 27px;
+    margin-top: 17px;
+        margin-left: -201px;
+        position: absolute;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > p:nth-child(3){
+  margin-left:44px;
+}
+#parent > div:nth-child(1) > div:nth-child(1) > p:nth-child(5){
+  margin-left:-74px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(1){
+    background:#41ca6e !important;
+    height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(1) > div > div:nth-child(1) > img:nth-child(1){
+  width: 60px;
+  height: 26px;
+  margin-top: 19px;
+  margin-left: -139px;
+  position: absolute;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(1) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(1) > div > div:nth-child(2) > img{
+  width: 380px;
+    height: 327px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(1) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(2){
+  background:#fab153 !important;
+  height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > img:nth-child(1){
+  width: 73px;
+  height: 50px;
+  margin-top: 62px;
+  margin-left: 1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(2) > img{
+  width: 264px;
+  height: 456px;
+  margin-top: 0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > p:nth-child(2){
+  margin-bottom: 15px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > p:nth-child(4){
+  margin-top: 1px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(3){
+  background:#7277d5 !important;
+  height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > img:nth-child(1){
+  width: 73px;
+  height: 50px;
+  margin-top: 62px;
+  margin-left: 1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(2) > img{
+  width: 264px;
+  height: 456px;
+  margin-top: 0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > p:nth-child(2){
+  margin-bottom: 15px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > p:nth-child(4){
+  margin-top: 1px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(4){
+  background:#f87d51 !important;
+  height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > img:nth-child(1){
+  width: 73px;
+  height: 50px;
+  margin-top: 62px;
+  margin-left: 1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(2) > img{
+  width: 264px;
+  height: 456px;
+  margin-top: 0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > p:nth-child(2){
+  margin-bottom: 15px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > p:nth-child(4){
+  margin-top: 1px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(5){
+  background:#ed5466 !important;
+  height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > img:nth-child(1){
+  width: 73px;
+  height: 50px;
+  margin-top: 62px;
+  margin-left: 1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(2) > img{
+  width: 264px;
+  height: 456px;
+  margin-top: 0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > p:nth-child(2){
+  margin-bottom: 15px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > p:nth-child(4){
+  margin-top: 1px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(6){
+  background:#4ec2e7 !important;
+  height: 678px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > img:nth-child(1){
+  width: 73px;
+  height: 50px;
+  margin-top: 62px;
+  margin-left: 1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > img:nth-child(2){
+  width: 100px;
+  height: 86px;
+  margin-top: 54px;
+  margin-left: -10px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(2) > img{
+  width: 264px;
+  height: 456px;
+  margin-top: 0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > hr{
+  background: white;
+    width: 57%;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > p:nth-child(2){
+  margin-bottom: 15px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > p:nth-child(4){
+  margin-top: 1px;
+}
+.react-multi-carousel-dot-list li{
+  background: transparent !important;
+}
+#root > div > h1:nth-child(1){
+  display: none;
+}
+#parent{
+  display: none;
+}
+#root > div > h1:nth-child(3){
+  display: none;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  #root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(1){
+    background:#41ca6e;
+    height: 595px !important;
+    width:490px !important;
+  }
+  #root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(2) {
+    background: #fab153 !important;
+    height: 595px !important;
+    width:490px !important;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(3){
+  background: #7277d5 !important;
+  height: 595px !important;
+  width:490px !important;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(4){
+  background: #f87d51 !important;
+  height: 595px !important;
+  width:490px !important;
+  top: 600px;
+  left: -1470px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(5){
+  background: #ed5466 !important;
+  height: 595px !important;
+  width:490px !important;
+  left:-1470px;
+  top:600px;
+}
+#root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(6){
+  background: #4ec2e7 !important;
+  height: 595px !important;
+  width:490px !important;
+  left:-1471px;
+  top:600px;
+}
+.react-multi-carousel-list{
+  overflow: visible !important;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(1) > img:nth-child(1){
+  width:73px;
+  height:50px;
+  margin-top:48px;
+  margin-left:1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(2) > div > div:nth-child(2) > img{
+  width:250px;
+  height:405px;
+  margin-top:0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(1) > img:nth-child(1){
+  width:73px;
+  height:50px;
+  margin-top:48px;
+  margin-left:1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(3) > div > div:nth-child(2) > img{
+  width:250px;
+  height:405px;
+  margin-top:0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(1) > img:nth-child(1){
+  width:73px;
+  height:50px;
+  margin-top:48px;
+  margin-left:1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(4) > div > div:nth-child(2) > img{
+  width:250px;
+  height:405px;
+  margin-top:0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(1) > img:nth-child(1){
+  width:73px;
+  height:50px;
+  margin-top:48px;
+  margin-left:1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(5) > div > div:nth-child(2) > img{
+  width:250px;
+  height:405px;
+  margin-top:0px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(1) > img:nth-child(1){
+  width:73px;
+  height:50px;
+  margin-top:48px;
+  margin-left:1px;
+}
+#root > div > div:nth-child(4) > div > ul > li:nth-child(6) > div > div:nth-child(2) > img{
+  width:250px;
+  height:405px;
+  margin-top:0px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .react-multi-carousel-list{
+    overflow: hidden !important;
+  }
+  #root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(4){
+    top: 0px;
+    left: 0px;
+  }
+  #root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(5){
+    left:0px;
+    top:0px;
+  }
+  #root > div > div:nth-child(4) > div > ul:not(.react-multi-carousel-dot-list) > li:nth-child(6){
+    left:0px;
+    top:0px;
+  }
+}
